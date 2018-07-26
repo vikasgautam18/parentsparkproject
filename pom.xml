@@ -7,7 +7,7 @@
     <packaging>pom</packaging>
   <properties>
     <scala.version>2.11.8</scala.version>
-    <spark.versiosn>2.3.0</spark.versiosn>
+    <spark.versiosn>2.2.1</spark.versiosn>
   </properties>
 
   <repositories>
@@ -48,13 +48,13 @@
       <dependency>
           <groupId>org.apache.spark</groupId>
           <artifactId>spark-core_2.11</artifactId>
-          <version>2.3.0</version>
+          <version>${spark.versiosn}</version>
       </dependency>
 
       <dependency>
           <groupId>org.apache.spark</groupId>
           <artifactId>spark-streaming_2.11</artifactId>
-          <version>2.3.0</version>
+          <version>${spark.versiosn}</version>
       </dependency>
 
       <dependency>
